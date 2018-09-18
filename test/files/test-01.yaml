@@ -1,0 +1,8 @@
+Version: v1
+Operations:
+  - Directive:
+      Command: kubectl get pods
+      Expectation: None
+  - Directive:
+      Command: kubectl get ns
+      Expectation: None
